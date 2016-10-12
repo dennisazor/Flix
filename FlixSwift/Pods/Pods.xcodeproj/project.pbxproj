@@ -1,0 +1,1575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E62FAFDB8950D690BAC0F447A97F3E1 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54ABF36759AFBE46D97FDBB0CCC43C4 /* Media.swift */; };
+		0EC4653D316DDE1E46498990482E5C09 /* Pods-FlixSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA692753AE41E3AF0CF1066C5724C28 /* Pods-FlixSwiftUITests-dummy.m */; };
+		1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E4B13A0405A6ACC1C1FC37AA3C872F /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFEE5CA09C0399063105A0E93D52E5 /* UIRefreshControl+AFNetworking.m */; };
+		192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E199182920304960106E15DF51DD632 /* Security.framework */; };
+		19FA3C740BA1D86DC06001573D8E89F9 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0EAEA95EF3080C4951FE3A1DFEBE8B /* EntityType.swift */; };
+		1BF9F0B27699B33CCED73DA3FF168BE5 /* Pods-FlixSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFE530526235348C0B022A8E9A00E7E /* Pods-FlixSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DC00735B74DE9DBE7F5B25D7DF3AAAAE /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B786E3AAB8234D261693B9B2705ECB24 /* AFSecurityPolicy.m */; };
+		20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0589426D511F81E0B74E0A4107FD212D /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28765B10E7DCB9D8DF17F0F480743152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6D4F2C34F4073C9E145BDAD11F32B1 /* CoreGraphics.framework */; };
+		28A654482557B2151E71A989DF861718 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2731D616A9512AFE3F2C2952A73AB0 /* Country.swift */; };
+		2A9A17DC3CE160C3FA44951BB98D0E32 /* iTunesSearchAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46324B93634BE552964F5DB0E3939869 /* iTunesSearchAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CFE6E3985653D3F9D52FDD7657DE893 /* ComplimentaryGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E7960F8727BB62FAD7B665273E0738 /* ComplimentaryGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C207DAAEBF3FE3FEECA03B93FCE0B2 /* UIImageView+AFNetworking.m */; };
+		3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0961F2029832C38276A8E30E894543E /* AFNetworking-dummy.m */; };
+		3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7EB484228179548830953740BBE67B /* AFAutoPurgingImageCache.m */; };
+		41637DA371D84C3DD6CE1A2BAD23DFE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E952E46089C71F1B18C710595AC20E84 /* QuartzCore.framework */; };
+		4CFCAC49AAB14D635193D12B26673B8B /* ComplimentaryGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E802BB7325EE008B19AFB751C408D410 /* ComplimentaryGradientView-dummy.m */; };
+		4DB28D12C250E835FFAE3BAE9A813106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6D4F2C34F4073C9E145BDAD11F32B1 /* CoreGraphics.framework */; };
+		4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E311B892508922C53CFCF4814F7622 /* MobileCoreServices.framework */; };
+		560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E96161FA214034F59094042A8D0C9273 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCB0CEAB4B23AAB3ADB153A900E0330 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B02CAE9509FBA076DDECA53C9F93337 /* ComplimentaryGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF893E4112FC5E62671EF9499B6D68 /* ComplimentaryGradientView.swift */; };
+		5B32EA8AB19F49234A383200A5135921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBC17AF4F069A23A479D21E7B846F6 /* UIProgressView+AFNetworking.m */; };
+		60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CC65849A976A9FDB854E4C8C690A48 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCE2EE1B23E7B31A2CC1E5048E7D480 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9749C4AE9C2C2379627D3898046F46 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6A9EBDD3ED0CB153BA68224971B8CC /* SystemConfiguration.framework */; };
+		68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF26306B0884D84224F20FE9B1E101F /* AFNetworkReachabilityManager.m */; };
+		6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AC37684BFD78FC226404E9C735857 /* UIActivityIndicatorView+AFNetworking.m */; };
+		6FB7F74216064635E0BE20C402E1D1FC /* GradientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8868FEAC703AE661CC43DB1C3B1F646 /* GradientType.swift */; };
+		707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8896926A9EE11A7A7CF35C7292292B43 /* AFURLSessionManager.m */; };
+		731FF5B96697CE26268808539089AE1B /* GradientStartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5FBE5FB17141BE87F0ADB8C90E18AE /* GradientStartPoint.swift */; };
+		7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F40868919454FFB2CF1D4708011CB8 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0899521EE6B768565E810DFFC2553E /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A8D6DC840E30C2F65D2B7EC105E41 /* Dictionary+Merge.swift */; };
+		7A85CB35185F19C6DCAB5E8FD0AAC89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		7AC30BC344E2256E758F500D590969DF /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = DFB2300E98CD07CE296E826655695E40 /* Info.plist */; };
+		7F547EA1F8D38D1DA189FD46C8BB2CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		81AADA5ADE8535AD6F7678C6F3A06E89 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50DA713A781A322D5DF71260794C88 /* MBProgressHUD.m */; };
+		81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F6739A436F02AD8C0C4A41EC5B0BE1C8 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82730D25EEB6A071B6DC958A606E024B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2822D9B3782E6DDBCDCE0A8F7F8053 /* Result.swift */; };
+		9AD1B48119DF6FCDC114E760DDFACFB1 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4283662E8C09DCB1A776B3662E8CB /* Options.swift */; };
+		9C257A8584D87C957767ED3CAEB82EE6 /* iTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4F36EC47DADEE15D96E762732E452A /* iTunes.swift */; };
+		9D560F32C1ABF44C44124699CA1C08E3 /* ComplimentaryGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C775C87215CF0FEE2A937A2913F83B /* ComplimentaryGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D748AA8F7CF678DAC9D4BF225017FE /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC4D4124A71AA9D8F5F2CBABFDA33 /* UIWebView+AFNetworking.m */; };
+		A63AAA17363ECC2027CEA0CE50DC89FB /* String+URLEscaped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF61E4C0D02C3457FC5B1908C6A182 /* String+URLEscaped.swift */; };
+		A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AEA4B499757501388BF460C5904759 /* AFNetworkActivityIndicatorManager.m */; };
+		A6F14025C733F70AA60867C689225A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E2AA9939216F4310E2EB8496618180 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5C9BD63031CBC8A58E46BC30F71F92 /* SearchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C1B905BD3C620A339CE653600B711 /* SearchError.swift */; };
+		AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AADE4EAF96E60B8B5A3C1DA3B155B2E /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F7890DE6E86BBA227EBA056B4DD4C85F /* UIButton+AFNetworking.m */; };
+		B0A24A57F6C251B6B03F7AF37B72B3F3 /* Pods-FlixSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A519DC0C9FC7DC9E76E554B45570A5 /* Pods-FlixSwift-dummy.m */; };
+		B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEA67690295D2181AEBDB1C260C5DC /* AFURLResponseSerialization.m */; };
+		B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		BC4B34B4CF0F64563128246FE339DEE5 /* iTunesSearchAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D112E503475BD4F525048EE6BCA095B6 /* iTunesSearchAPI-dummy.m */; };
+		C18D3FD6D7EF5B402899F870DDAB44F6 /* Pods-FlixSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7764584B2F2C3614612E4037892D5038 /* Pods-FlixSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = E81099CCBE51A3887ABA31B0140790B7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 46951247F52A6CA4F1179E05A0D4E0B2 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA60BE0E8BE7992D7561610E3DF8DB8 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 606D3E59F9585CDA0F1E01483D080FE0 /* AFImageDownloader.m */; };
+		D6ABDFF81E566FFECF367E42C6333D79 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D21590D3CD07A2BDC0A77F79E9A8A4 /* MBProgressHUD-dummy.m */; };
+		D711EBBB664A6ED7779B62B8710FB875 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF884BFE7CF095FBC68E02D7BC224DA /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C898A901FDA66C3841E578CB5E251C2E /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8C85B62D9A7E6D40CC9A8E56CA9551 /* CAGraidentLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12425B05563D28881A7046D22A2A7E77 /* CAGraidentLayer.swift */; };
+		DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BB1042866F081B4348B56507BFC71 /* AFURLRequestSerialization.m */; };
+		E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D83E2097A642A4AADA2E3781B37CA11C /* AFHTTPSessionManager.m */; };
+		E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 03146AAE169C07C3FED2D53B9F79D4D4 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80574B3F8F7C70A0F2DB8AFBED62F5A /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248D4FB579459019B72C767B1DE9B92 /* Language.swift */; };
+		E9EAF8D78BE598E31F0AAC36CB059598 /* Pods-FlixSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE77166F675A5980DF30F37064D4F147 /* Pods-FlixSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF4063C5D3C8C1AE3C7513759BA9D0B /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E219C8E22B4EC5B36F85322383254D /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D90B6CD55CC313CFB15137B90299A6F5 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E2270688B51682D136431A43034F44 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC791692B28CFA00C134F25425F5099 /* Entity.swift */; };
+		F92BA58A5AB20A2CBACE5DF46065F59B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */; };
+		FB9ADB08216F5DCF2472D806D262405F /* Pods-FlixSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF4E0FD6DF8144CB96360A5A0657090 /* Pods-FlixSwiftTests-dummy.m */; };
+		FF7081CF75C3D95AF67A1D4F43A03907 /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CBC5F123951489FC698668843C6943 /* UIImageColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BAE3FFADE8A9C69449C5285E0861BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77432D7611413C229DBAFBD3FEAA111;
+			remoteInfo = ComplimentaryGradientView;
+		};
+		2B2FE31B6B7A776E17419E98E31BACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA6001481CEA0EBA031CC5C94508FAA;
+			remoteInfo = MBProgressHUD;
+		};
+		CEA5C29F3F9BFEF24270CC8DAEC1A4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B1BC54DA5EC310FBF2571F52A49C01;
+			remoteInfo = iTunesSearchAPI;
+		};
+		F3137376BD20CC49690EE77B8E2C1F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3436CEA5C3D39764C5F54374794ECB;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007F8151EC2F993F47BFB6276C5BED48 /* Pods-FlixSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlixSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		00C4283662E8C09DCB1A776B3662E8CB /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Source/Options.swift; sourceTree = "<group>"; };
+		0178F82CFC2D833B0F517617D530E44C /* Pods_FlixSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03146AAE169C07C3FED2D53B9F79D4D4 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		04A519DC0C9FC7DC9E76E554B45570A5 /* Pods-FlixSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlixSwift-dummy.m"; sourceTree = "<group>"; };
+		0589426D511F81E0B74E0A4107FD212D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		06A32A837CA95582AF203FD5C546F311 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E7960F8727BB62FAD7B665273E0738 /* ComplimentaryGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ComplimentaryGradientView.h; path = Source/ComplimentaryGradientView.h; sourceTree = "<group>"; };
+		0B4F36EC47DADEE15D96E762732E452A /* iTunes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iTunes.swift; path = Source/iTunes.swift; sourceTree = "<group>"; };
+		0CFB40CC0C499C240D0415EFF88E0DF3 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0E4A8D6DC840E30C2F65D2B7EC105E41 /* Dictionary+Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Merge.swift"; path = "Source/Dictionary+Merge.swift"; sourceTree = "<group>"; };
+		0FF884BFE7CF095FBC68E02D7BC224DA /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		12425B05563D28881A7046D22A2A7E77 /* CAGraidentLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAGraidentLayer.swift; path = Source/CAGraidentLayer.swift; sourceTree = "<group>"; };
+		134CAEC24810152EFA183A53E4EA5416 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A94F43382068B5F505B9F9F9838926 /* iTunesSearchAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTunesSearchAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D21590D3CD07A2BDC0A77F79E9A8A4 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1A013FAD39BA37704574CA6D092A6EE7 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A318C74396062E68A88FFAC0E815766 /* Pods-FlixSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BCE2EE1B23E7B31A2CC1E5048E7D480 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		1D0EAEA95EF3080C4951FE3A1DFEBE8B /* EntityType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntityType.swift; path = Source/EntityType.swift; sourceTree = "<group>"; };
+		1F7EB484228179548830953740BBE67B /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		21C207DAAEBF3FE3FEECA03B93FCE0B2 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		25E2F5F94EF46B36E2142EA455B23341 /* iTunesSearchAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTunesSearchAPI-prefix.pch"; sourceTree = "<group>"; };
+		29D748AA8F7CF678DAC9D4BF225017FE /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		2C5AC37684BFD78FC226404E9C735857 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		2D2822D9B3782E6DDBCDCE0A8F7F8053 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		2DDBC17AF4F069A23A479D21E7B846F6 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		2F50DA713A781A322D5DF71260794C88 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		376FC9902292CF43AAB9076F947736BA /* Pods_FlixSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386C82F10C6894E9897142485330603C /* ComplimentaryGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComplimentaryGradientView-prefix.pch"; sourceTree = "<group>"; };
+		38E219C8E22B4EC5B36F85322383254D /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3AADE4EAF96E60B8B5A3C1DA3B155B2E /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3AC4D3880AD0867EE1206D10D88CAB17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5FBE5FB17141BE87F0ADB8C90E18AE /* GradientStartPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStartPoint.swift; path = Source/GradientStartPoint.swift; sourceTree = "<group>"; };
+		3E6CA4CE448621FF96B362A7D6A14F4C /* Pods-FlixSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlixSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		408136AFE98E8D6B1B96B5CC98F173D9 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		4167DFA64ED86153F93D3AAF9EB72F41 /* Pods-FlixSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4348ECAB10079C995E4FF42014CD6543 /* Pods-FlixSwiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwiftUITests-resources.sh"; sourceTree = "<group>"; };
+		43CBC5F123951489FC698668843C6943 /* UIImageColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageColors.swift; path = Source/UIImageColors.swift; sourceTree = "<group>"; };
+		46324B93634BE552964F5DB0E3939869 /* iTunesSearchAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iTunesSearchAPI-umbrella.h"; sourceTree = "<group>"; };
+		46951247F52A6CA4F1179E05A0D4E0B2 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		482FB1E30C6C29D7295E3D7855F5F469 /* Pods-FlixSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AC791692B28CFA00C134F25425F5099 /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Source/Entity.swift; sourceTree = "<group>"; };
+		4D8BB1042866F081B4348B56507BFC71 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		5254C14F1FC1FE9E2A0FD05B9E74E703 /* iTunesSearchAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iTunesSearchAPI.xcconfig; sourceTree = "<group>"; };
+		5305865898915B2D89ECBDE85C3A9175 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EB26D88A4040DA0BA6447B70F04A5E /* ComplimentaryGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComplimentaryGradientView.xcconfig; sourceTree = "<group>"; };
+		5FFE530526235348C0B022A8E9A00E7E /* Pods-FlixSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlixSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		606D3E59F9585CDA0F1E01483D080FE0 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		60A55D7EBB63FDF7999EEF8477E78EF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694B4B2897D639B59365109851E47956 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		6AC61FDE705932A9FB8B6F5B1EFF0863 /* Pods-FlixSwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6BAF61E4C0D02C3457FC5B1908C6A182 /* String+URLEscaped.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+URLEscaped.swift"; path = "Source/String+URLEscaped.swift"; sourceTree = "<group>"; };
+		6FD97F61CEEC47E83AC9BC5BD3AC4892 /* Pods-FlixSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlixSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		72C6887D8ABEF58ACC08C1C5A1AFE8AC /* Pods-FlixSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlixSwiftTests.modulemap"; sourceTree = "<group>"; };
+		7764584B2F2C3614612E4037892D5038 /* Pods-FlixSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlixSwift-umbrella.h"; sourceTree = "<group>"; };
+		78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CA60BE0E8BE7992D7561610E3DF8DB8 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		805AEA86E85671E23FDC1BA552987CC2 /* ComplimentaryGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ComplimentaryGradientView.modulemap; sourceTree = "<group>"; };
+		82D8B34EA1DB1C4871EE9C3562E4EB31 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		866C5CA6C92561686873B9FDFBC5DF6F /* Pods-FlixSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlixSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8678F701AFE9BDE6238E5C6E4FEADB9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E4B13A0405A6ACC1C1FC37AA3C872F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		88248A52D325809A1E6971BC0BEB6942 /* Pods-FlixSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwiftTests-resources.sh"; sourceTree = "<group>"; };
+		8896926A9EE11A7A7CF35C7292292B43 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		8A6D4F2C34F4073C9E145BDAD11F32B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8A70D8A8765A9B9BA8BCB8D2E9E6820C /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		8ECC52A7E940AAD5206FFD940E81B696 /* Pods-FlixSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8F6BE16BEB9945AE74405941AAFE4141 /* Pods-FlixSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCEA67690295D2181AEBDB1C260C5DC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		91C775C87215CF0FEE2A937A2913F83B /* ComplimentaryGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComplimentaryGradientView-umbrella.h"; sourceTree = "<group>"; };
+		92BCB5D1FD2B563BCDA9EF1036078487 /* Pods-FlixSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlixSwift.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		995AA6D1554F7AF3E5C2E33B516FD798 /* Pods-FlixSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlixSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B2731D616A9512AFE3F2C2952A73AB0 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Country.swift; path = Source/Country.swift; sourceTree = "<group>"; };
+		9C6A9EBDD3ED0CB153BA68224971B8CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9E199182920304960106E15DF51DD632 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9FCB0CEAB4B23AAB3ADB153A900E0330 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		A0961F2029832C38276A8E30E894543E /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		A9E2AA9939216F4310E2EB8496618180 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AB50D4338785AF89C94C1299AAFA11D9 /* Pods-FlixSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		AB514F379071FA507C7BBF559DCDB1C2 /* Pods-FlixSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlixSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC560DCDEDDD4F7361349D6EFF496C70 /* Pods-FlixSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlixSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF26306B0884D84224F20FE9B1E101F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B2F40868919454FFB2CF1D4708011CB8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B786E3AAB8234D261693B9B2705ECB24 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BA52A88A03AA24293C028A7EEE66BE62 /* Pods-FlixSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlixSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		BBC9D5E1DF826DCFB211D2CE82FFBF48 /* iTunesSearchAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iTunesSearchAPI.modulemap; sourceTree = "<group>"; };
+		BBF4E0FD6DF8144CB96360A5A0657090 /* Pods-FlixSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlixSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		BCCF893E4112FC5E62671EF9499B6D68 /* ComplimentaryGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComplimentaryGradientView.swift; path = Source/ComplimentaryGradientView.swift; sourceTree = "<group>"; };
+		BE075365C23C94796A64D2D43E9BB5FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30B68D2391CA96CA341AE248DA1E243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C898A901FDA66C3841E578CB5E251C2E /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CE1AC4D4124A71AA9D8F5F2CBABFDA33 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D112E503475BD4F525048EE6BCA095B6 /* iTunesSearchAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iTunesSearchAPI-dummy.m"; sourceTree = "<group>"; };
+		D45AE69DEE83ECB636E25853D4CAA0EE /* ComplimentaryGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComplimentaryGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D87D2C3A2EED6F0F58FB08C7FE5EDC /* Pods-FlixSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwift-frameworks.sh"; sourceTree = "<group>"; };
+		D83E2097A642A4AADA2E3781B37CA11C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D8868FEAC703AE661CC43DB1C3B1F646 /* GradientType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientType.swift; path = Source/GradientType.swift; sourceTree = "<group>"; };
+		D90B6CD55CC313CFB15137B90299A6F5 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		DA9749C4AE9C2C2379627D3898046F46 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DC00735B74DE9DBE7F5B25D7DF3AAAAE /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		DE77166F675A5980DF30F37064D4F147 /* Pods-FlixSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlixSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		DFB2300E98CD07CE296E826655695E40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
+		E248D4FB579459019B72C767B1DE9B92 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Source/Language.swift; sourceTree = "<group>"; };
+		E5E311B892508922C53CFCF4814F7622 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		E802BB7325EE008B19AFB751C408D410 /* ComplimentaryGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ComplimentaryGradientView-dummy.m"; sourceTree = "<group>"; };
+		E81099CCBE51A3887ABA31B0140790B7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		E952E46089C71F1B18C710595AC20E84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E96161FA214034F59094042A8D0C9273 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E9D778954BB0CAA518FF3FB1F54A4F9F /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F0AEA4B499757501388BF460C5904759 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		F2C5709BB84B7D806762B459C7EE4463 /* Pods-FlixSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlixSwift-resources.sh"; sourceTree = "<group>"; };
+		F2DFEE5CA09C0399063105A0E93D52E5 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		F54ABF36759AFBE46D97FDBB0CCC43C4 /* Media.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Media.swift; path = Source/Media.swift; sourceTree = "<group>"; };
+		F6739A436F02AD8C0C4A41EC5B0BE1C8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		F7890DE6E86BBA227EBA056B4DD4C85F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		F7CC65849A976A9FDB854E4C8C690A48 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F7CD8C308EFBE336BAF74FD592811180 /* Pods_FlixSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C1B905BD3C620A339CE653600B711 /* SearchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchError.swift; path = Source/SearchError.swift; sourceTree = "<group>"; };
+		FCA692753AE41E3AF0CF1066C5724C28 /* Pods-FlixSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlixSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFB040C7B57BED48C3B88DB9689C30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BA58A5AB20A2CBACE5DF46065F59B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4161B0612BDBF5BD49DBC28E0EC20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28765B10E7DCB9D8DF17F0F480743152 /* CoreGraphics.framework in Frameworks */,
+				5B32EA8AB19F49234A383200A5135921 /* Foundation.framework in Frameworks */,
+				41637DA371D84C3DD6CE1A2BAD23DFE2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7981706B65A8A6238B075F419E49E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A85CB35185F19C6DCAB5E8FD0AAC89E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F5ECCEB9D1D709D2DD6B2C83B3478E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F547EA1F8D38D1DA189FD46C8BB2CBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21985792D0F7175F6363650F7C902FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F14025C733F70AA60867C689225A6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C134E70ED0D61665C0D528BB56754A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB28D12C250E835FFAE3BAE9A813106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */,
+				B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */,
+				4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */,
+				192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */,
+				688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EDF5F9E247E46FB2CC0334204EB44BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A6D4F2C34F4073C9E145BDAD11F32B1 /* CoreGraphics.framework */,
+				78116A4A5B2F29FA5A88E51AC0744F6E /* Foundation.framework */,
+				E5E311B892508922C53CFCF4814F7622 /* MobileCoreServices.framework */,
+				E952E46089C71F1B18C710595AC20E84 /* QuartzCore.framework */,
+				9E199182920304960106E15DF51DD632 /* Security.framework */,
+				9C6A9EBDD3ED0CB153BA68224971B8CC /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EDF5F9E247E46FB2CC0334204EB44BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15B6EDF839508AFFCF4ABEF770DFCA2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8D463E500B76121D30B2D0A3B07D33A /* AFNetworking */,
+				DDE85A235CF694ED195A3DC4D03CD7E9 /* ComplimentaryGradientView */,
+				45BDCBBFCEE0944BDD927892FEAB2936 /* iTunesSearchAPI */,
+				62CAFE4C3910D01614E1A4EDDBE8CAB6 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AE78AFE1F5EE1C4191B6FB437FF23C5 /* Pods-FlixSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8678F701AFE9BDE6238E5C6E4FEADB9E /* Info.plist */,
+				BA52A88A03AA24293C028A7EEE66BE62 /* Pods-FlixSwiftUITests.modulemap */,
+				007F8151EC2F993F47BFB6276C5BED48 /* Pods-FlixSwiftUITests-acknowledgements.markdown */,
+				3E6CA4CE448621FF96B362A7D6A14F4C /* Pods-FlixSwiftUITests-acknowledgements.plist */,
+				FCA692753AE41E3AF0CF1066C5724C28 /* Pods-FlixSwiftUITests-dummy.m */,
+				6AC61FDE705932A9FB8B6F5B1EFF0863 /* Pods-FlixSwiftUITests-frameworks.sh */,
+				4348ECAB10079C995E4FF42014CD6543 /* Pods-FlixSwiftUITests-resources.sh */,
+				DE77166F675A5980DF30F37064D4F147 /* Pods-FlixSwiftUITests-umbrella.h */,
+				1A318C74396062E68A88FFAC0E815766 /* Pods-FlixSwiftUITests.debug.xcconfig */,
+				4167DFA64ED86153F93D3AAF9EB72F41 /* Pods-FlixSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-FlixSwiftUITests";
+			path = "Target Support Files/Pods-FlixSwiftUITests";
+			sourceTree = "<group>";
+		};
+		24121DC2DF5424EC2042E9A7EF50F497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A013FAD39BA37704574CA6D092A6EE7 /* AFNetworking.framework */,
+				D45AE69DEE83ECB636E25853D4CAA0EE /* ComplimentaryGradientView.framework */,
+				14A94F43382068B5F505B9F9F9838926 /* iTunesSearchAPI.framework */,
+				134CAEC24810152EFA183A53E4EA5416 /* MBProgressHUD.framework */,
+				F7CD8C308EFBE336BAF74FD592811180 /* Pods_FlixSwift.framework */,
+				376FC9902292CF43AAB9076F947736BA /* Pods_FlixSwiftTests.framework */,
+				0178F82CFC2D833B0F517617D530E44C /* Pods_FlixSwiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BDCBBFCEE0944BDD927892FEAB2936 /* iTunesSearchAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9B2731D616A9512AFE3F2C2952A73AB0 /* Country.swift */,
+				0E4A8D6DC840E30C2F65D2B7EC105E41 /* Dictionary+Merge.swift */,
+				4AC791692B28CFA00C134F25425F5099 /* Entity.swift */,
+				1D0EAEA95EF3080C4951FE3A1DFEBE8B /* EntityType.swift */,
+				0B4F36EC47DADEE15D96E762732E452A /* iTunes.swift */,
+				E248D4FB579459019B72C767B1DE9B92 /* Language.swift */,
+				F54ABF36759AFBE46D97FDBB0CCC43C4 /* Media.swift */,
+				00C4283662E8C09DCB1A776B3662E8CB /* Options.swift */,
+				2D2822D9B3782E6DDBCDCE0A8F7F8053 /* Result.swift */,
+				F80C1B905BD3C620A339CE653600B711 /* SearchError.swift */,
+				6BAF61E4C0D02C3457FC5B1908C6A182 /* String+URLEscaped.swift */,
+				6349ADE272E728C1D72D246E99463A27 /* Support Files */,
+			);
+			path = iTunesSearchAPI;
+			sourceTree = "<group>";
+		};
+		62CAFE4C3910D01614E1A4EDDBE8CAB6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				38E219C8E22B4EC5B36F85322383254D /* MBProgressHUD.h */,
+				2F50DA713A781A322D5DF71260794C88 /* MBProgressHUD.m */,
+				636B75CE109D6EF50A2BD99259E6A985 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6349ADE272E728C1D72D246E99463A27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE075365C23C94796A64D2D43E9BB5FA /* Info.plist */,
+				BBC9D5E1DF826DCFB211D2CE82FFBF48 /* iTunesSearchAPI.modulemap */,
+				5254C14F1FC1FE9E2A0FD05B9E74E703 /* iTunesSearchAPI.xcconfig */,
+				D112E503475BD4F525048EE6BCA095B6 /* iTunesSearchAPI-dummy.m */,
+				25E2F5F94EF46B36E2142EA455B23341 /* iTunesSearchAPI-prefix.pch */,
+				46324B93634BE552964F5DB0E3939869 /* iTunesSearchAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iTunesSearchAPI";
+			sourceTree = "<group>";
+		};
+		636B75CE109D6EF50A2BD99259E6A985 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5305865898915B2D89ECBDE85C3A9175 /* Info.plist */,
+				8A70D8A8765A9B9BA8BCB8D2E9E6820C /* MBProgressHUD.modulemap */,
+				0CFB40CC0C499C240D0415EFF88E0DF3 /* MBProgressHUD.xcconfig */,
+				16D21590D3CD07A2BDC0A77F79E9A8A4 /* MBProgressHUD-dummy.m */,
+				E9D778954BB0CAA518FF3FB1F54A4F9F /* MBProgressHUD-prefix.pch */,
+				0FF884BFE7CF095FBC68E02D7BC224DA /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				15B6EDF839508AFFCF4ABEF770DFCA2C /* Pods */,
+				24121DC2DF5424EC2042E9A7EF50F497 /* Products */,
+				D8DA248450E6228FD2F8FC0867F5A031 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8023F0F57F0DA9A2D4417D1219B91873 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D8B34EA1DB1C4871EE9C3562E4EB31 /* AFNetworking.modulemap */,
+				694B4B2897D639B59365109851E47956 /* AFNetworking.xcconfig */,
+				A0961F2029832C38276A8E30E894543E /* AFNetworking-dummy.m */,
+				408136AFE98E8D6B1B96B5CC98F173D9 /* AFNetworking-prefix.pch */,
+				D90B6CD55CC313CFB15137B90299A6F5 /* AFNetworking-umbrella.h */,
+				60A55D7EBB63FDF7999EEF8477E78EF6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		B130C12A18AE9E63A4655DC1705B873E /* Pods-FlixSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4D3880AD0867EE1206D10D88CAB17 /* Info.plist */,
+				92BCB5D1FD2B563BCDA9EF1036078487 /* Pods-FlixSwift.modulemap */,
+				866C5CA6C92561686873B9FDFBC5DF6F /* Pods-FlixSwift-acknowledgements.markdown */,
+				6FD97F61CEEC47E83AC9BC5BD3AC4892 /* Pods-FlixSwift-acknowledgements.plist */,
+				04A519DC0C9FC7DC9E76E554B45570A5 /* Pods-FlixSwift-dummy.m */,
+				D5D87D2C3A2EED6F0F58FB08C7FE5EDC /* Pods-FlixSwift-frameworks.sh */,
+				F2C5709BB84B7D806762B459C7EE4463 /* Pods-FlixSwift-resources.sh */,
+				7764584B2F2C3614612E4037892D5038 /* Pods-FlixSwift-umbrella.h */,
+				AC560DCDEDDD4F7361349D6EFF496C70 /* Pods-FlixSwift.debug.xcconfig */,
+				8ECC52A7E940AAD5206FFD940E81B696 /* Pods-FlixSwift.release.xcconfig */,
+			);
+			name = "Pods-FlixSwift";
+			path = "Target Support Files/Pods-FlixSwift";
+			sourceTree = "<group>";
+		};
+		B7BB5779CA13BF7928C979A1D3FDFEA3 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				0589426D511F81E0B74E0A4107FD212D /* AFURLRequestSerialization.h */,
+				4D8BB1042866F081B4348B56507BFC71 /* AFURLRequestSerialization.m */,
+				B2F40868919454FFB2CF1D4708011CB8 /* AFURLResponseSerialization.h */,
+				8FCEA67690295D2181AEBDB1C260C5DC /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		B8B1C6AE8ED1ADCC4472D022ED113542 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				A9E2AA9939216F4310E2EB8496618180 /* AFHTTPSessionManager.h */,
+				D83E2097A642A4AADA2E3781B37CA11C /* AFHTTPSessionManager.m */,
+				E96161FA214034F59094042A8D0C9273 /* AFURLSessionManager.h */,
+				8896926A9EE11A7A7CF35C7292292B43 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		BE0A3F661E759D7618AE306540803E3C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7CA60BE0E8BE7992D7561610E3DF8DB8 /* AFAutoPurgingImageCache.h */,
+				1F7EB484228179548830953740BBE67B /* AFAutoPurgingImageCache.m */,
+				9FCB0CEAB4B23AAB3ADB153A900E0330 /* AFImageDownloader.h */,
+				606D3E59F9585CDA0F1E01483D080FE0 /* AFImageDownloader.m */,
+				87E4B13A0405A6ACC1C1FC37AA3C872F /* AFNetworkActivityIndicatorManager.h */,
+				F0AEA4B499757501388BF460C5904759 /* AFNetworkActivityIndicatorManager.m */,
+				DC00735B74DE9DBE7F5B25D7DF3AAAAE /* UIActivityIndicatorView+AFNetworking.h */,
+				2C5AC37684BFD78FC226404E9C735857 /* UIActivityIndicatorView+AFNetworking.m */,
+				F6739A436F02AD8C0C4A41EC5B0BE1C8 /* UIButton+AFNetworking.h */,
+				F7890DE6E86BBA227EBA056B4DD4C85F /* UIButton+AFNetworking.m */,
+				29D748AA8F7CF678DAC9D4BF225017FE /* UIImage+AFNetworking.h */,
+				F7CC65849A976A9FDB854E4C8C690A48 /* UIImageView+AFNetworking.h */,
+				21C207DAAEBF3FE3FEECA03B93FCE0B2 /* UIImageView+AFNetworking.m */,
+				1BCE2EE1B23E7B31A2CC1E5048E7D480 /* UIKit+AFNetworking.h */,
+				C898A901FDA66C3841E578CB5E251C2E /* UIProgressView+AFNetworking.h */,
+				2DDBC17AF4F069A23A479D21E7B846F6 /* UIProgressView+AFNetworking.m */,
+				46951247F52A6CA4F1179E05A0D4E0B2 /* UIRefreshControl+AFNetworking.h */,
+				F2DFEE5CA09C0399063105A0E93D52E5 /* UIRefreshControl+AFNetworking.m */,
+				3AADE4EAF96E60B8B5A3C1DA3B155B2E /* UIWebView+AFNetworking.h */,
+				CE1AC4D4124A71AA9D8F5F2CBABFDA33 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		C02D74423A73A7F55EB714C4CD32C339 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				805AEA86E85671E23FDC1BA552987CC2 /* ComplimentaryGradientView.modulemap */,
+				56EB26D88A4040DA0BA6447B70F04A5E /* ComplimentaryGradientView.xcconfig */,
+				E802BB7325EE008B19AFB751C408D410 /* ComplimentaryGradientView-dummy.m */,
+				386C82F10C6894E9897142485330603C /* ComplimentaryGradientView-prefix.pch */,
+				91C775C87215CF0FEE2A937A2913F83B /* ComplimentaryGradientView-umbrella.h */,
+				C30B68D2391CA96CA341AE248DA1E243 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ComplimentaryGradientView";
+			sourceTree = "<group>";
+		};
+		D1CF5CDAE7340C855578808D31CDD3C2 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				E81099CCBE51A3887ABA31B0140790B7 /* AFSecurityPolicy.h */,
+				B786E3AAB8234D261693B9B2705ECB24 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		D8DA248450E6228FD2F8FC0867F5A031 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B130C12A18AE9E63A4655DC1705B873E /* Pods-FlixSwift */,
+				DFB91493B95C510B67DAF28DFFB10590 /* Pods-FlixSwiftTests */,
+				1AE78AFE1F5EE1C4191B6FB437FF23C5 /* Pods-FlixSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DDE85A235CF694ED195A3DC4D03CD7E9 /* ComplimentaryGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				12425B05563D28881A7046D22A2A7E77 /* CAGraidentLayer.swift */,
+				09E7960F8727BB62FAD7B665273E0738 /* ComplimentaryGradientView.h */,
+				BCCF893E4112FC5E62671EF9499B6D68 /* ComplimentaryGradientView.swift */,
+				3B5FBE5FB17141BE87F0ADB8C90E18AE /* GradientStartPoint.swift */,
+				D8868FEAC703AE661CC43DB1C3B1F646 /* GradientType.swift */,
+				DFB2300E98CD07CE296E826655695E40 /* Info.plist */,
+				43CBC5F123951489FC698668843C6943 /* UIImageColors.swift */,
+				C02D74423A73A7F55EB714C4CD32C339 /* Support Files */,
+			);
+			path = ComplimentaryGradientView;
+			sourceTree = "<group>";
+		};
+		DFB91493B95C510B67DAF28DFFB10590 /* Pods-FlixSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				06A32A837CA95582AF203FD5C546F311 /* Info.plist */,
+				72C6887D8ABEF58ACC08C1C5A1AFE8AC /* Pods-FlixSwiftTests.modulemap */,
+				995AA6D1554F7AF3E5C2E33B516FD798 /* Pods-FlixSwiftTests-acknowledgements.markdown */,
+				AB514F379071FA507C7BBF559DCDB1C2 /* Pods-FlixSwiftTests-acknowledgements.plist */,
+				BBF4E0FD6DF8144CB96360A5A0657090 /* Pods-FlixSwiftTests-dummy.m */,
+				AB50D4338785AF89C94C1299AAFA11D9 /* Pods-FlixSwiftTests-frameworks.sh */,
+				88248A52D325809A1E6971BC0BEB6942 /* Pods-FlixSwiftTests-resources.sh */,
+				5FFE530526235348C0B022A8E9A00E7E /* Pods-FlixSwiftTests-umbrella.h */,
+				8F6BE16BEB9945AE74405941AAFE4141 /* Pods-FlixSwiftTests.debug.xcconfig */,
+				482FB1E30C6C29D7295E3D7855F5F469 /* Pods-FlixSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-FlixSwiftTests";
+			path = "Target Support Files/Pods-FlixSwiftTests";
+			sourceTree = "<group>";
+		};
+		E2FC0ED70F5B058C12661A2E41EE4003 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DA9749C4AE9C2C2379627D3898046F46 /* AFNetworkReachabilityManager.h */,
+				AFF26306B0884D84224F20FE9B1E101F /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F8D463E500B76121D30B2D0A3B07D33A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				03146AAE169C07C3FED2D53B9F79D4D4 /* AFNetworking.h */,
+				B8B1C6AE8ED1ADCC4472D022ED113542 /* NSURLSession */,
+				E2FC0ED70F5B058C12661A2E41EE4003 /* Reachability */,
+				D1CF5CDAE7340C855578808D31CDD3C2 /* Security */,
+				B7BB5779CA13BF7928C979A1D3FDFEA3 /* Serialization */,
+				8023F0F57F0DA9A2D4417D1219B91873 /* Support Files */,
+				BE0A3F661E759D7618AE306540803E3C /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0014226BA9DFF208A40BC11D2B6573F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18D3FD6D7EF5B402899F870DDAB44F6 /* Pods-FlixSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16D586B2797007116CFAA48BC414FFC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D560F32C1ABF44C44124699CA1C08E3 /* ComplimentaryGradientView-umbrella.h in Headers */,
+				2CFE6E3985653D3F9D52FDD7657DE893 /* ComplimentaryGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5CDCB9D8E0BB0975E3797EDC45AB2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711EBBB664A6ED7779B62B8710FB875 /* MBProgressHUD-umbrella.h in Headers */,
+				EAF4063C5D3C8C1AE3C7513759BA9D0B /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2763B54D8D9118899CF2AA91521EE83F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF9F0B27699B33CCED73DA3FF168BE5 /* Pods-FlixSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC265BE2A7E2CA454B467CD6EC5DCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAF8D78BE598E31F0AAC36CB059598 /* Pods-FlixSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */,
+				AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */,
+				5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */,
+				1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */,
+				E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */,
+				68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */,
+				C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */,
+				20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */,
+				7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */,
+				560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */,
+				1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */,
+				9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */,
+				60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */,
+				659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */,
+				D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */,
+				C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */,
+				AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1E845AB41C2795B2423375B6B45CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9A17DC3CE160C3FA44951BB98D0E32 /* iTunesSearchAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11533F6D91C639815AF4894CC944DF22 /* Pods-FlixSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6036D36E19A562D2E70B33B527B7745 /* Build configuration list for PBXNativeTarget "Pods-FlixSwiftUITests" */;
+			buildPhases = (
+				C2D8967797F748529C6FCE2BB9440A32 /* Sources */,
+				A21985792D0F7175F6363650F7C902FD /* Frameworks */,
+				55AC265BE2A7E2CA454B467CD6EC5DCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlixSwiftUITests";
+			productName = "Pods-FlixSwiftUITests";
+			productReference = 0178F82CFC2D833B0F517617D530E44C /* Pods_FlixSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */,
+				C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */,
+				7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 1A013FAD39BA37704574CA6D092A6EE7 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5BFC585230AE3ED3B84CC924D680834 /* Pods-FlixSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CED3CC3C6876B37D0EDE7545889F922 /* Build configuration list for PBXNativeTarget "Pods-FlixSwift" */;
+			buildPhases = (
+				88C450ABEFEE1621FF9869B888337617 /* Sources */,
+				5D7981706B65A8A6238B075F419E49E6 /* Frameworks */,
+				0014226BA9DFF208A40BC11D2B6573F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D642527B5236B4C1CF9370013B1451BD /* PBXTargetDependency */,
+				8009E9DBEA403ECC8B1ECAB53AECEDF7 /* PBXTargetDependency */,
+				94CA81855DEB1D13C2E4D3CEADB1140F /* PBXTargetDependency */,
+				BD3B24223C5997E6519C21E5E5E78DB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlixSwift";
+			productName = "Pods-FlixSwift";
+			productReference = F7CD8C308EFBE336BAF74FD592811180 /* Pods_FlixSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A77432D7611413C229DBAFBD3FEAA111 /* ComplimentaryGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC10B3619908A193B586E000D36D6A2 /* Build configuration list for PBXNativeTarget "ComplimentaryGradientView" */;
+			buildPhases = (
+				161B63C941198333B5BDBD70F6D47FF5 /* Sources */,
+				0FFB040C7B57BED48C3B88DB9689C30F /* Frameworks */,
+				16D586B2797007116CFAA48BC414FFC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplimentaryGradientView;
+			productName = ComplimentaryGradientView;
+			productReference = D45AE69DEE83ECB636E25853D4CAA0EE /* ComplimentaryGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBA6001481CEA0EBA031CC5C94508FAA /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2C012DEECFAAEF8B8A9CE1E8AAA03C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				18E2532E62644868123A50D7CA3BA192 /* Sources */,
+				4C4161B0612BDBF5BD49DBC28E0EC20B /* Frameworks */,
+				1F5CDCB9D8E0BB0975E3797EDC45AB2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 134CAEC24810152EFA183A53E4EA5416 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1AAB56FA8D39AE4934737CA5E2B23E5 /* Pods-FlixSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2402ABED91ED6BB404233AACA03A391E /* Build configuration list for PBXNativeTarget "Pods-FlixSwiftTests" */;
+			buildPhases = (
+				67DC3866D32FFACE0A322DAC8955AF67 /* Sources */,
+				C134E70ED0D61665C0D528BB56754A30 /* Frameworks */,
+				2763B54D8D9118899CF2AA91521EE83F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlixSwiftTests";
+			productName = "Pods-FlixSwiftTests";
+			productReference = 376FC9902292CF43AAB9076F947736BA /* Pods_FlixSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B1BC54DA5EC310FBF2571F52A49C01 /* iTunesSearchAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908351A382078D435E10E454F198DF0F /* Build configuration list for PBXNativeTarget "iTunesSearchAPI" */;
+			buildPhases = (
+				95AEEDDB55C68D2FB324C1D13D2A4A04 /* Sources */,
+				98F5ECCEB9D1D709D2DD6B2C83B3478E /* Frameworks */,
+				8F1E845AB41C2795B2423375B6B45CE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesSearchAPI;
+			productName = iTunesSearchAPI;
+			productReference = 14A94F43382068B5F505B9F9F9838926 /* iTunesSearchAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24121DC2DF5424EC2042E9A7EF50F497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */,
+				A77432D7611413C229DBAFBD3FEAA111 /* ComplimentaryGradientView */,
+				F7B1BC54DA5EC310FBF2571F52A49C01 /* iTunesSearchAPI */,
+				DBA6001481CEA0EBA031CC5C94508FAA /* MBProgressHUD */,
+				A5BFC585230AE3ED3B84CC924D680834 /* Pods-FlixSwift */,
+				F1AAB56FA8D39AE4934737CA5E2B23E5 /* Pods-FlixSwiftTests */,
+				11533F6D91C639815AF4894CC944DF22 /* Pods-FlixSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161B63C941198333B5BDBD70F6D47FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8C85B62D9A7E6D40CC9A8E56CA9551 /* CAGraidentLayer.swift in Sources */,
+				4CFCAC49AAB14D635193D12B26673B8B /* ComplimentaryGradientView-dummy.m in Sources */,
+				5B02CAE9509FBA076DDECA53C9F93337 /* ComplimentaryGradientView.swift in Sources */,
+				731FF5B96697CE26268808539089AE1B /* GradientStartPoint.swift in Sources */,
+				6FB7F74216064635E0BE20C402E1D1FC /* GradientType.swift in Sources */,
+				7AC30BC344E2256E758F500D590969DF /* Info.plist in Sources */,
+				FF7081CF75C3D95AF67A1D4F43A03907 /* UIImageColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2532E62644868123A50D7CA3BA192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ABDFF81E566FFECF367E42C6333D79 /* MBProgressHUD-dummy.m in Sources */,
+				81AADA5ADE8535AD6F7678C6F3A06E89 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */,
+				E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */,
+				CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */,
+				A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */,
+				68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */,
+				20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */,
+				DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */,
+				B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */,
+				707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */,
+				6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */,
+				2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */,
+				5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */,
+				174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67DC3866D32FFACE0A322DAC8955AF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9ADB08216F5DCF2472D806D262405F /* Pods-FlixSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C450ABEFEE1621FF9869B888337617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A24A57F6C251B6B03F7AF37B72B3F3 /* Pods-FlixSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AEEDDB55C68D2FB324C1D13D2A4A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A654482557B2151E71A989DF861718 /* Country.swift in Sources */,
+				7A0899521EE6B768565E810DFFC2553E /* Dictionary+Merge.swift in Sources */,
+				F6E2270688B51682D136431A43034F44 /* Entity.swift in Sources */,
+				19FA3C740BA1D86DC06001573D8E89F9 /* EntityType.swift in Sources */,
+				9C257A8584D87C957767ED3CAEB82EE6 /* iTunes.swift in Sources */,
+				BC4B34B4CF0F64563128246FE339DEE5 /* iTunesSearchAPI-dummy.m in Sources */,
+				E80574B3F8F7C70A0F2DB8AFBED62F5A /* Language.swift in Sources */,
+				0E62FAFDB8950D690BAC0F447A97F3E1 /* Media.swift in Sources */,
+				9AD1B48119DF6FCDC114E760DDFACFB1 /* Options.swift in Sources */,
+				82730D25EEB6A071B6DC958A606E024B /* Result.swift in Sources */,
+				AD5C9BD63031CBC8A58E46BC30F71F92 /* SearchError.swift in Sources */,
+				A63AAA17363ECC2027CEA0CE50DC89FB /* String+URLEscaped.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D8967797F748529C6FCE2BB9440A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC4653D316DDE1E46498990482E5C09 /* Pods-FlixSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8009E9DBEA403ECC8B1ECAB53AECEDF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComplimentaryGradientView;
+			target = A77432D7611413C229DBAFBD3FEAA111 /* ComplimentaryGradientView */;
+			targetProxy = 0BAE3FFADE8A9C69449C5285E0861BE6 /* PBXContainerItemProxy */;
+		};
+		94CA81855DEB1D13C2E4D3CEADB1140F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = DBA6001481CEA0EBA031CC5C94508FAA /* MBProgressHUD */;
+			targetProxy = 2B2FE31B6B7A776E17419E98E31BACC5 /* PBXContainerItemProxy */;
+		};
+		BD3B24223C5997E6519C21E5E5E78DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iTunesSearchAPI;
+			target = F7B1BC54DA5EC310FBF2571F52A49C01 /* iTunesSearchAPI */;
+			targetProxy = CEA5C29F3F9BFEF24270CC8DAEC1A4D5 /* PBXContainerItemProxy */;
+		};
+		D642527B5236B4C1CF9370013B1451BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */;
+			targetProxy = F3137376BD20CC49690EE77B8E2C1F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E98EF9CD9FFD12A8C400554058C3DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694B4B2897D639B59365109851E47956 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2460ACC06F532D3C8C5975B8A7386A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFB40CC0C499C240D0415EFF88E0DF3 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EF34463028AB28BF37CF642D25EF01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A318C74396062E68A88FFAC0E815766 /* Pods-FlixSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwiftUITests/Pods-FlixSwiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E1EBF563A509622519DF5F917C56912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482FB1E30C6C29D7295E3D7855F5F469 /* Pods-FlixSwiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwiftTests/Pods-FlixSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92CE86193FBD3505A91F37D989986E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EB26D88A4040DA0BA6447B70F04A5E /* ComplimentaryGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ComplimentaryGradientView/ComplimentaryGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComplimentaryGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComplimentaryGradientView/ComplimentaryGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ComplimentaryGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		949EE7DF84D2BE1F2C1E6B101A4C86FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5254C14F1FC1FE9E2A0FD05B9E74E703 /* iTunesSearchAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iTunesSearchAPI/iTunesSearchAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iTunesSearchAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iTunesSearchAPI/iTunesSearchAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iTunesSearchAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9756EE401CF13A3950069A665582476B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EB26D88A4040DA0BA6447B70F04A5E /* ComplimentaryGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ComplimentaryGradientView/ComplimentaryGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ComplimentaryGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ComplimentaryGradientView/ComplimentaryGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ComplimentaryGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C19FEBBE4FE499F6FF03C6C69A4CDACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694B4B2897D639B59365109851E47956 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0C200E935FAEB650DA2B06C0FEDD842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6BE16BEB9945AE74405941AAFE4141 /* Pods-FlixSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwiftTests/Pods-FlixSwiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D91D3CBE5C47946958FE2C4C3A77E65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECC52A7E940AAD5206FFD940E81B696 /* Pods-FlixSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwift/Pods-FlixSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEC65FD817AEA0050E555E93FCA745B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFB40CC0C499C240D0415EFF88E0DF3 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF2B727A13F69BB705271035926A45E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4167DFA64ED86153F93D3AAF9EB72F41 /* Pods-FlixSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwiftUITests/Pods-FlixSwiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E49844CC36D1FC674A98F22E85B680A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5254C14F1FC1FE9E2A0FD05B9E74E703 /* iTunesSearchAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iTunesSearchAPI/iTunesSearchAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iTunesSearchAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iTunesSearchAPI/iTunesSearchAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iTunesSearchAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6B4EA4533395D6C6C81EE04CD763B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC560DCDEDDD4F7361349D6EFF496C70 /* Pods-FlixSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FlixSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlixSwift/Pods-FlixSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FlixSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2C012DEECFAAEF8B8A9CE1E8AAA03C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2460ACC06F532D3C8C5975B8A7386A25 /* Debug */,
+				DEC65FD817AEA0050E555E93FCA745B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2402ABED91ED6BB404233AACA03A391E /* Build configuration list for PBXNativeTarget "Pods-FlixSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C200E935FAEB650DA2B06C0FEDD842 /* Debug */,
+				4E1EBF563A509622519DF5F917C56912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CED3CC3C6876B37D0EDE7545889F922 /* Build configuration list for PBXNativeTarget "Pods-FlixSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B4EA4533395D6C6C81EE04CD763B1 /* Debug */,
+				D91D3CBE5C47946958FE2C4C3A77E65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19FEBBE4FE499F6FF03C6C69A4CDACA /* Debug */,
+				0E98EF9CD9FFD12A8C400554058C3DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908351A382078D435E10E454F198DF0F /* Build configuration list for PBXNativeTarget "iTunesSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49844CC36D1FC674A98F22E85B680A5 /* Debug */,
+				949EE7DF84D2BE1F2C1E6B101A4C86FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC10B3619908A193B586E000D36D6A2 /* Build configuration list for PBXNativeTarget "ComplimentaryGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9756EE401CF13A3950069A665582476B /* Debug */,
+				92CE86193FBD3505A91F37D989986E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6036D36E19A562D2E70B33B527B7745 /* Build configuration list for PBXNativeTarget "Pods-FlixSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF34463028AB28BF37CF642D25EF01F /* Debug */,
+				DF2B727A13F69BB705271035926A45E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

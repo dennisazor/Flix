@@ -12,6 +12,11 @@ import ComplimentaryGradientView
 class MoviesDetailViewController: UIViewController {
 
     
+    @IBOutlet weak var backdropImg: UIImageView!
+    @IBOutlet weak var overviewLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var iTunesImage: UIButton!
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var gradientBG: ComplimentaryGradientView!
     @IBOutlet weak var detailsScroll: UIScrollView!
     @IBOutlet weak var movieImage: UIImageView!
@@ -22,13 +27,16 @@ class MoviesDetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+
+        overviewLabel.numberOfLines = 0
+        titleLabel.numberOfLines = 0
+        
+        
         setupUI()
         
-        // scroll view setup
-        let contentWidth = self.detailsScroll.bounds.width
-        let contentHeight = self.detailsScroll.bounds.height * 3
-        self.detailsScroll.contentSize = CGSize(width: contentWidth, height: contentHeight)
+        detailsScroll.contentSize = CGSize(width: detailsScroll.frame.size.width, height: contentView.frame.origin.y + contentView.frame.size.height)
         
+        iTunesImage.alpha = 0.4
 
         
     }
@@ -36,15 +44,31 @@ class MoviesDetailViewController: UIViewController {
     
     func setupUI() {
         
-        // IMAGE -- refactor this later with the small image if it's already cached
         
-        self.title = movie["title"] as! String
+//        self.backdropImg.image = movie[]
+        // image url
+//        let baseURL = "https://image.tmdb.org/t/p/w500"
+//        let backdropPath = movie["backdrop_path"] as! String
+//        let imageURL = URL(string: baseURL + backdropPath)
+//        self.backdropImg.setImageWith(imageURL!)
+//        self.backdropImg.alpha = 0.5
+        
+        // IMAGE -- refactor this later with the small image if it's already cached
+        overviewLabel.text = movie["overview"] as? String
+        overviewLabel.sizeToFit()
+        overviewLabel.layoutIfNeeded()
+        titleLabel.text = movie["title"] as? String
+                titleLabel.sizeToFit()
+                titleLabel.layoutIfNeeded()
+        self.title = movie["title"] as? String
         let posterPath = movie["poster_path"] as! String
         let smallImageURL = URL(string: "https://image.tmdb.org/t/p/w45\(posterPath)")
         let largeImageURL = URL(string: "https://image.tmdb.org/t/p/original\(posterPath)")
         
         let smallImageRequest = URLRequest(url: smallImageURL!)
         let largeImageRequest = URLRequest(url: largeImageURL!)
+        
+
         
         
         self.movieImage.setImageWith(smallImageRequest,
@@ -69,14 +93,6 @@ class MoviesDetailViewController: UIViewController {
                                                                                 self.gradientBG.gradientTpye = .backgroundPrimary
                                                                                 self.gradientBG.gradientStartPoint = .left
                                                                                 
-                                                                                //Colors for gradient are derived from the provided image
-//                                                                                self.testCG.image = largeImage
-//                                                                                
-//                                                                                //Default = .backgroundPrimary (See GradientType enum for all possible values)
-//                                                                                self.testCG.gradientTpye = .backgroundPrimary
-//                                                                                
-//                                                                                //Defaut = .Top. Possible values = Top, Left, Right, Bottom
-//                                                                                self.testCG.gradientStartPoint = .left
                                                                 
                                                     }, failure: { (largeRequest, largeResponse, largeError) in
                                                         print(largeError)
@@ -88,6 +104,12 @@ class MoviesDetailViewController: UIViewController {
             }) { (smallRequest, smallResponse, smallError) in
                 // small image error
                 print(smallError)
+                
+                
+//                let bg : UIImage = largeImage
+                self.gradientBG.image = self.movieImage.image
+                self.gradientBG.gradientTpye = .backgroundPrimary
+                self.gradientBG.gradientStartPoint = .left
                 
         }
         

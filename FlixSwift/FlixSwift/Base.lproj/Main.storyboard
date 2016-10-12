@@ -209,25 +209,45 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="ZZI-4N-oWP">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="244"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="609"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="U04-VH-My0" customClass="ComplimentaryGradientView" customModule="ComplimentaryGradientView">
-                                                <rect key="frame" x="0.0" y="260" width="375" height="343"/>
+                                            <view contentMode="scaleToFill" misplaced="YES" id="EZs-H6-hVS">
+                                                <rect key="frame" x="0.0" y="603" width="375" height="382"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="EC8-6C-Nc0">
-                                                        <frame key="frameInset" width="375" height="667"/>
+                                                    <view contentMode="scaleToFill" misplaced="YES" id="U04-VH-My0" customClass="ComplimentaryGradientView" customModule="ComplimentaryGradientView">
+                                                        <frame key="frameInset" width="375" height="382"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="qMc-FK-VkU">
-                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="244"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s9K-UV-7Gp">
+                                                                <frame key="frameInset" minX="233" minY="22" width="109" height="41"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" image="itunes.png"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kFC-tB-ieC">
+                                                                <frame key="frameInset" minX="21" minY="22" width="204" height="41"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="19"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P6d-n1-Rne">
+                                                                <frame key="frameInset" minX="21" minY="84" width="321" height="267"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="7UL-XD-inW">
+                                                                <frame key="frameInset" width="375" height="382"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
-                                                    </scrollView>
+                                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    </view>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
                                     </scrollView>
@@ -239,9 +259,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="Sq4-p1-fqm"/>
                     <connections>
+                        <outlet property="backdropImg" destination="7UL-XD-inW" id="uBH-xS-7f2"/>
+                        <outlet property="contentView" destination="EZs-H6-hVS" id="4BG-d4-Xbc"/>
                         <outlet property="detailsScroll" destination="4oQ-to-piJ" id="hlh-a3-k4U"/>
                         <outlet property="gradientBG" destination="mG7-qO-SCb" id="gxP-h1-XFw"/>
+                        <outlet property="iTunesImage" destination="s9K-UV-7Gp" id="o8X-Om-MCa"/>
                         <outlet property="movieImage" destination="ZZI-4N-oWP" id="nxf-Z7-93S"/>
+                        <outlet property="overviewLabel" destination="P6d-n1-Rne" id="SoI-cT-8l3"/>
+                        <outlet property="titleLabel" destination="kFC-tB-ieC" id="Ou5-yr-ZZm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8E-0F-ams" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -355,6 +380,7 @@
     </scenes>
     <resources>
         <image name="current.png" width="24" height="24"/>
+        <image name="itunes.png" width="220" height="80"/>
         <image name="popular.png" width="24" height="24"/>
         <image name="toprated.png" width="25" height="25"/>
         <image name="upcoming.png" width="24" height="24"/>

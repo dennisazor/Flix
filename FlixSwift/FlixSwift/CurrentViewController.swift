@@ -28,6 +28,7 @@ class CurrentViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func   viewDidLoad() {
         super.viewDidLoad()
 
+        configureiTunes()
         self.title = "Current"
         // Do any additional setup after loading the view.
         self.networkError.isHidden = true
@@ -74,8 +75,10 @@ class CurrentViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func configureiTunes() {
         let itunes = iTunes()
-        itunes.search(for: "Dance Moms", ofType: .tvShow(Entity.tvEpisode)) { result in
+        itunes.search(for: "Trolls", ofType: .movie(Entity.movie)) { result in
             // handle the Result<AnyObject, SearchError>
+            print("RESULT ")
+            print(result)
         }
     }
     
@@ -143,6 +146,7 @@ class CurrentViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cell = moviesTableView.dequeueReusableCell(withIdentifier: "currentMovieCell", for: indexPath) as! MovieCell
         let movie = self.filteredMovies![indexPath.row]
         let title = movie["title"] as! String
+        
         let overview = movie["overview"] as! String
         
         // image url

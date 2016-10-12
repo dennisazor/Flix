@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src='http://i.imgur.com/IuZir2v.gif' title='Tip Calc Walkthrough' width='' alt='Tip Calc Walkthrough'/>
+<img src='http://i.imgur.com/Exv8KTl.gif' title='Tip Calc Walkthrough' width='' alt='Tip Calc Walkthrough'/>
 
 GIF created with [LiceCap](http://i.imgur.com/wo8w5us.gif).
 
